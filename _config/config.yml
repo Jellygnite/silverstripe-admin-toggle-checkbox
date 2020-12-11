@@ -1,0 +1,6 @@
+---
+Name: togglecheckboxconfig
+---
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - jellygnite/silverstripe-admin-toggle-checkbox:css/main.css

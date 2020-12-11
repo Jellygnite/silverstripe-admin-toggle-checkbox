@@ -1,0 +1,33 @@
+{
+    "name": "jellygnite/silverstripe-admin-toggle-checkbox",
+    "description": "CSS only toggle that re-styles checkboxes in the admin",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "admin",
+        "checkbox"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Jim Chisholm",
+            "homepage": "http://www.jellygnite.com.au/"
+        }
+    ],
+	"require": {
+        "silverstripe/framework": "~4.0",
+        "silverstripe/admin": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "extra": {
+        "expose": [
+            "css"
+        ],
+        "branch-alias": {
+            "dev-master": "4.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
